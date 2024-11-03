@@ -3,36 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Details</title>
+    <title>Student Details Table</title>
     <style>
         table {
-            width: 60%;
-            margin: 20px auto;
             background-color: yellow;
             border-collapse: collapse;
+            width: 100%;
         }
-
-        caption {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        th, td {
+        table, th, tr, td {
             border: 1px solid black;
-            padding: 8px;
-            text-align: center;
         }
-
-        th {
-            background-color: #f2f2f2;
+        th, td {
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
     <table>
+        <!-- Table Caption -->
         <caption>Student Details</caption>
+
+        <!-- Table Header -->
         <thead>
             <tr>
                 <th>NAME</th>
@@ -40,30 +33,26 @@
                 <th>BRANCH</th>
             </tr>
         </thead>
+
+        <!-- Table Body with Student Data -->
         <tbody>
             <tr>
-                <td>Alice</td>
+                <td>Alice Johnson</td>
                 <td>20</td>
                 <td>Computer Science</td>
             </tr>
             <tr>
-                <td>Bob</td>
-                <td>21</td>
-                <td>Electrical Engineering</td>
-            </tr>
-            <tr>
-                <td>Charlie</td>
+                <td>Bob Smith</td>
                 <td>22</td>
                 <td>Mechanical Engineering</td>
             </tr>
             <tr>
-                <td>David</td>
-                <td>19</td>
-                <td>Civil Engineering</td>
+                <td>Charlie Brown</td>
+                <td>21</td>
+                <td>Electrical Engineering</td>
             </tr>
         </tbody>
     </table>
 
 </body>
 </html>
-
